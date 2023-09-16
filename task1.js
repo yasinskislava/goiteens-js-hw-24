@@ -1,3 +1,4 @@
 const button = document.querySelector("#button-1");
-const text = document.querySelector("#text-1");
-button.textContent = text.textContent;
+const input = document.querySelector("#inp");
+console.log(input.value);
+button.textContent = input.value;
